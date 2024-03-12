@@ -34,7 +34,7 @@ public class RatingServiceImpl implements RatingService{
 	@Override
 	public String deleteRatingId(String ratingId) {
 		 ratingRepository.deleteById(ratingId);
-		 return "Deleted Successfully";
+		 return "Rating is Deleted Successfully";
 	}
 
 	@Override
